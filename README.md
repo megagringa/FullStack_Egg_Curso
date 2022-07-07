@@ -75,7 +75,7 @@ public static void main(String args[])
         String muestra;
          
         // instrucción switch con tipo de datos int
-        switch (day) 
+        switch (estacion) 
         {
             case 1:  muestra = "Verano";
                      break;
