@@ -7,7 +7,7 @@
 |  #  | Java |
 | --- | --- |
 |  1  | [GitHub](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/GitHub)| 
-|  2  | Construcción|
+|  2  | [Java](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Introducción_a_Java)|
 |  3  | Construcción|
 |  4  | Construcción|
 |  5  | [Relaciones](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Relaciones)
