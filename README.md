@@ -13,7 +13,7 @@
 |  5  | [Relaciones](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Relaciones)
 ```
 1_Guía GitHub.
-2_Guía Introducción_a_Java - En construcción.
+2_Guía Introducción_a_Java.
 3_Guía POO(Orientación_a_Objetos) - En construcción.
 4_Guía Colecciones - En construcción.
 5_Guía Relaciones_entre_Clases.
