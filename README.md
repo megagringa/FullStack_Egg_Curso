@@ -6,13 +6,13 @@
 
 |  #  | Java |
 | --- | --- |
-|  1  | Construcción| 
+|  1  | [GitHub](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/GitHub)| 
 |  2  | Construcción|
 |  3  | Construcción|
 |  4  | Construcción|
 |  5  | [Relaciones](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Relaciones)
 ```
-1_Guía GitHub - En construcción.
+1_Guía GitHub.
 2_Guía Introducción_a_Java - En construcción.
 3_Guía POO(Orientación_a_Objetos) - En construcción.
 4_Guía Colecciones - En construcción.
