@@ -9,19 +9,17 @@ package entity;
  * @author ing_j
  */
 public class Perro {
-    private String nombre;
-    private String raza;
+    private String nombre,raza, tamanio;
     private int edad;
-    private String tamano;
 
     public Perro() {
     }
 
-    public Perro(String nombre, String raza, int edad, String tamano) {
+    public Perro(String nombre, String raza, String tamanio, int edad) {
         this.nombre = nombre;
         this.raza = raza;
+        this.tamanio = tamanio;
         this.edad = edad;
-        this.tamano = tamano;
     }
 
     public String getNombre() {
@@ -40,6 +38,14 @@ public class Perro {
         this.raza = raza;
     }
 
+    public String getTamanio() {
+        return tamanio;
+    }
+
+    public void setTamanio(String tamanio) {
+        this.tamanio = tamanio;
+    }
+
     public int getEdad() {
         return edad;
     }
@@ -48,18 +54,10 @@ public class Perro {
         this.edad = edad;
     }
 
-    public String getTamano() {
-        return tamano;
-    }
-
-    public void setTamano(String tamano) {
-        this.tamano = tamano;
-    }
-
     @Override
     public String toString() {
-        return "Perro{" + "nombre=" + nombre + ", raza=" + raza + ", edad=" + edad + ", tamano=" + tamano + '}';
+        return "Perro{" + "nombre=" + nombre + ", raza=" + raza + ", tamanio=" + tamanio + ", edad=" + edad + '}';
     }
-    
+
     
 }

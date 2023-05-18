@@ -9,21 +9,19 @@ package entity;
  * @author ing_j
  */
 public class Person {
-    private String nombre;
-    private String apellido;
-    private int edad;
-    private String documento;
-    private Perro perro;
+    private String nombre, apellido; 
+    private int edad, documento;
+    private Perro dog; 
 
     public Person() {
     }
 
-    public Person(String nombre, String apellido, int edad, String documento) {
+    public Person(String nombre, String apellido, int edad, int documento, Perro dog) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
         this.documento = documento;
-      //  this.perro = perro;
+        this.dog = dog;
     }
 
     public String getNombre() {
@@ -50,22 +48,32 @@ public class Person {
         this.edad = edad;
     }
 
-    public String getDocumento() {
+    public int getDocumento() {
         return documento;
     }
 
-    public void setDocumento(String documento) {
+    public void setDocumento(int documento) {
         this.documento = documento;
+    }
+
+    public Perro getDog() {
+        return dog;
+    }
+
+    public void setDog(Perro dog) {
+        this.dog = dog;
     }
 
     @Override
     public String toString() {
-        return "Person{" + "nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", documento=" + documento + '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("Persona{nombre=").append(nombre);
+        sb.append(", apellido=").append(apellido);
+        sb.append(", edad=").append(edad);
+        sb.append(", documento=").append(documento);
+        sb.append(", dog=").append(dog);
+        sb.append('}');
+        return sb.toString();
     }
-
-    public void setPerro(Perro d) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-    
     
 }
