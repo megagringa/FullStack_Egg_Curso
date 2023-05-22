@@ -16,62 +16,61 @@ package test;
 
 import java.util.Scanner;
 
-
 public class Ejercicio11 {
 
     public static void main(String[] args) {
-    Scanner frase = new Scanner(System.in);
-    
-    String palabras;
-    
+        Scanner frase = new Scanner(System.in);
+
+        String palabras;
+
         System.out.println("Ingrese una frase: ");
         palabras = frase.nextLine();
-        System.out.println("La nueva palabra es: "+CambiarPalabras(palabras));
-        
-}
-    
-    public static String CambiarPalabras(String palabra){
+        System.out.println("La nueva palabra es: " + CambiarPalabras(palabras));
+
+    }
+
+    public static String CambiarPalabras(String palabra) {
 
         int x;
         char letra;
         String nuevaP;
-        //Saber la longitud de la cadena
+        // Saber la longitud de la cadena
         x = palabra.length();
-        //Inicializar cadena
+        // Inicializar cadena
         nuevaP = "";
-        //recorrer la cadena
-        for(int i = 0 ; i<x ; i++ ){
+        // recorrer la cadena
+        for (int i = 0; i < x; i++) {
             letra = palabra.charAt(i);
-            
-            switch(letra){
+
+            switch (letra) {
                 case 'a':
                 case 'A':
-                letra = '@';
-                nuevaP = nuevaP + letra;
-                break;
+                    letra = '@';
+                    nuevaP = nuevaP + letra;
+                    break;
                 case 'e':
                 case 'E':
-                letra = '#';
-                nuevaP = nuevaP + letra;
-                break;
+                    letra = '#';
+                    nuevaP = nuevaP + letra;
+                    break;
                 case 'i':
                 case 'I':
-                letra = '$';
-                nuevaP = nuevaP + letra;
-                break;
+                    letra = '$';
+                    nuevaP = nuevaP + letra;
+                    break;
                 case 'o':
                 case 'O':
-                letra = '%';
-                nuevaP = nuevaP + letra;
-                break;
+                    letra = '%';
+                    nuevaP = nuevaP + letra;
+                    break;
                 case 'u':
                 case 'U':
-                letra = '*';
-                nuevaP = nuevaP + letra;
-                break;
+                    letra = '*';
+                    nuevaP = nuevaP + letra;
+                    break;
                 default:
-                nuevaP = nuevaP + letra;
-                break;
+                    nuevaP = nuevaP + letra;
+                    break;
 
             }
         }
@@ -79,8 +78,4 @@ public class Ejercicio11 {
 
     }
 
-
-
-    
 }
-  

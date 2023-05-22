@@ -7,27 +7,28 @@ package test;
 
 import java.util.Scanner;
 
-
 public class Ejercicio12 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
-    
+        Scanner leer = new Scanner(System.in);
+
+        System.out.println("Ingrese dos numeros que sean multiplos para validar.");
+
         System.out.println("Ingrese el primer multiplo: ");
         int num1 = leer.nextInt();
-        
+
         System.out.println("Ingrese el segundo multiplo para validar: ");
         int num2 = leer.nextInt();
-        
-        esMultiplo(num1,num2);
+
+        esMultiplo(num1, num2);
 
     }
-    public static void esMultiplo (int num1,int num2){
-        if(num1%num2==0){
+
+    public static void esMultiplo(int num1, int num2) {
+        if (num1 % num2 == 0) {
             System.out.println("El numero se valdia como multiplo.");
-        }else{
+        } else {
             System.out.println("El numero no se valida como multiplo.");
         }
     }
 }
-  

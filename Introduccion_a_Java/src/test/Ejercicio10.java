@@ -10,25 +10,23 @@ package test;
 
 import java.util.Scanner;
 
-
 public class Ejercicio10 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner (System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese cuatro valores comprendidos entre 1 y 20: ");
-        for(int i = 0; i<4; i++){
+        for (int i = 0; i < 4; i++) {
             System.out.println("");
             int num = leer.nextInt();
             System.out.print(num);
-            if(num>0 && num<21){
-                for(int j=0;j<num;j++){
+            if (num > 0 && num < 21) {
+                for (int j = 0; j < num; j++) {
                     System.out.print("*");
                 }
-            }else{
+            } else {
                 System.out.println("El valor ingresado no esta en el rango.");
                 i--;
             }
         }
+    }
 }
-}
-   

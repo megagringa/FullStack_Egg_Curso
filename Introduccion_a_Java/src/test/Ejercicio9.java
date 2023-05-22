@@ -8,31 +8,29 @@ package test;
 
 import java.util.Scanner;
 
-
 public class Ejercicio9 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner (System.in);
-        
-    int contador = 1;
-    int suma = 0;
-    
-    do{
-        System.out.println("ingrese 20 valores a sumar");
-        int num = leer.nextInt();
-    if(num>0){
-        suma = suma + num;
-        contador++;
-    }else if(num<0){
-        contador++;
-        continue;
-    }else{
-        System.out.println("Se capturo el numero 0.");
-        break;
-    }    
-        
-    }while(contador <= 20);
-        System.out.println("la suma de lo numeros es de "+suma);
+        Scanner leer = new Scanner(System.in);
+
+        int contador = 1;
+        int suma = 0;
+
+        do {
+            System.out.println("ingrese 20 valores a sumar");
+            int num = leer.nextInt();
+            if (num > 0) {
+                suma = suma + num;
+                contador++;
+            } else if (num < 0) {
+                contador++;
+                continue;
+            } else {
+                System.out.println("Se capturo el numero 0.");
+                break;
+            }
+
+        } while (contador <= 20);
+        System.out.println("la suma de lo numeros es de " + suma);
+    }
 }
-}
-    

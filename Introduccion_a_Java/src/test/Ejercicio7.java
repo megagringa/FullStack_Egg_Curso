@@ -16,35 +16,42 @@ package test;
 
 import java.util.Scanner;
 
-
 public class Ejercicio7 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner (System.in);
-        System.out.println("Ingre la opcion de la bomba de 1 a 4:");
-        System.out.println("1. La bomba es de agua.");
-        System.out.println("2. La bomba es de gasolina.");
-        System.out.println("3. La bomba es de hormigón.");
-        System.out.println("4. La bomba es de pasta alimenticia.");
-        
-        int opcion = leer.nextInt();
-        
-        switch(opcion){
-            case 1:
-                System.out.println("La bomba es de agua.");
-                break;
-            case 2:
-                System.out.println("La bomba es de gasolina.");
-                break;
-            case 3:
-                System.out.println("La bomba es de hormigón.");
-                break;
-            case 4:
-                System.out.println("La bomba es de pasta alimenticia.");
-                break;
-            default:
-                System.out.println("No existe un valor válido para tipo de bomba.");
+        Scanner leer = new Scanner(System.in);
+        boolean flag = true;
+
+        do {
+
+            System.out.println("Ingre la opcion de la bomba de 1 a 4:");
+            System.out.println("1. La bomba es de agua.");
+            System.out.println("2. La bomba es de gasolina.");
+            System.out.println("3. La bomba es de hormigón.");
+            System.out.println("4. La bomba es de pasta alimenticia.");
+            System.out.println("5. Salir del programa.");
+
+            int opcion = leer.nextInt();
+
+            switch (opcion) {
+                case 1:
+                    System.out.println("La bomba es de agua.");
+                    break;
+                case 2:
+                    System.out.println("La bomba es de gasolina.");
+                    break;
+                case 3:
+                    System.out.println("La bomba es de hormigón.");
+                    break;
+                case 4:
+                    System.out.println("La bomba es de pasta alimenticia.");
+                    break;
+                case 5:
+                    System.out.println("Saliendo del programa.");
+                    flag = false;
+                default:
+                    System.out.println("No existe un valor válido para tipo de bomba.");
+            }
+        } while (flag);
     }
 }
-}
- 
