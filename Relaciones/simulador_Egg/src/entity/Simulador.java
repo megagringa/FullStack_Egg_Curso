@@ -4,7 +4,6 @@
  */
 package entity;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -12,14 +11,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
-
-
+import java.util.Scanner;
 
 /**
  *
  * @author ing_j
  */
 public class Simulador {
+
+    Scanner read = new Scanner(System.in);
 
     private static final int NUM_ALUMNOS_GENERAR = 10;
     private static final int NUM_ALUMNOS_ELEGIDOS = 5;
@@ -83,9 +83,12 @@ public class Simulador {
                 votado.incrementarVotos();
             }
 
-            Voto voto = new Voto(alumno, votos);
+            /*Voto voto = new Voto(alumno, votos);
             System.out.println("Voto de " + alumno.getNombreCompleto() + ": " + voto.getAlumnosVotados());
+           System.out.println();*/
+          break;
         }
+         
     }
 
     public void mostrarRecuentoVotos(List<Alumno> alumnos) {
@@ -103,8 +106,9 @@ public class Simulador {
     }
 
     public void mostrarFacilitadores(List<Alumno> alumnos) { // mejor muestra
-        Collections.sort(alumnos, (a1, a2) -> Integer.compare(a2.getCantidadVotos(), a1.getCantidadVotos()));
 
+        Collections.sort(alumnos, (a1, a2) -> Integer.compare(a2.getCantidadVotos(), a1.getCantidadVotos()));
+        asignarVotos(alumnos);
         System.out.println("Facilitadores:");
         for (int i = 0; i < NUM_ALUMNOS_ELEGIDOS; i++) {
             Alumno facilitador = alumnos.get(i);
@@ -116,8 +120,53 @@ public class Simulador {
         System.out.println("Facilitadores Suplentes:");
         for (int i = NUM_ALUMNOS_ELEGIDOS; i < 2 * NUM_ALUMNOS_ELEGIDOS; i++) {
             Alumno facilitadorSuplente = alumnos.get(i);
-            System.out.println((i - NUM_ALUMNOS_ELEGIDOS + 1) + " . " + facilitadorSuplente.getNombreCompleto());
+            System.out.println((i - NUM_ALUMNOS_ELEGIDOS + 1) + ". " + facilitadorSuplente.getNombreCompleto());
         }
     }
-}
 
+    public void menu(List<Alumno> alumni) {
+        boolean flag = true;
+        do {
+
+            System.out.println("======================================================================================================");
+            System.out.println("            Simulador del Sistema de votacion para Facilitadores EGG: SSFEGG V9.13");
+            System.out.println("======================================================================================================");
+            System.out.println("| 1. Mostrar listado de alumnos | 2. Asignar Votos | | 3. Mostrar recuento de votos | 4. Mostrar facilitadores | 5. Salir |");
+            System.out.println("");
+            System.out.println("Elija una opcion: ");
+            int option = read.nextInt();
+
+            switch (option) {
+                case 1:
+                    System.out.println("======================================================================================================");
+
+                    System.out.println("Listado de alumnos:");
+                    for (Alumno alumno : alumni) {
+                        System.out.println(alumno.getNombreCompleto() + " DNI: " + alumno.getDni());
+                    }
+                    break;
+                case 2:
+                    System.out.println("======================================================================================================");
+                    asignarVotos(alumni);
+                    System.out.println("Votos asignados.");
+                    break;
+                case 3:
+                    System.out.println("======================================================================================================");
+                    //asignarVotos(alumni);
+                    mostrarRecuentoVotos(alumni);
+                    break;
+                case 4:
+                    System.out.println("======================================================================================================");
+
+                    mostrarFacilitadores(alumni);
+                    break;
+                case 5:
+                    System.out.println("saliendo...");
+                    flag = false;
+                    break;
+                default:
+                    System.out.println("Opcion invalida.");
+            }
+        } while (flag == true);
+    }
+}

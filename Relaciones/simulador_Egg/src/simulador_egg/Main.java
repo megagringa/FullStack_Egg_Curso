@@ -50,8 +50,10 @@ public class Main {
        
         Simulador simulador = new Simulador();
         List<Alumno> alumnos = simulador.generarAlumnos();
-
-        System.out.println("Listado de alumnos:");
+        simulador.menu(alumnos);
+        
+        
+       /* System.out.println("Listado de alumnos:");
         for (Alumno alumno : alumnos) {
             System.out.println(alumno.getNombreCompleto() + " DNI: " + alumno.getDni());
         }
@@ -60,6 +62,6 @@ public class Main {
         System.out.println();
         simulador.mostrarRecuentoVotos(alumnos);
         System.out.println();
-        simulador.mostrarFacilitadores(alumnos);
+        simulador.mostrarFacilitadores(alumnos);*/
     }
 }
