@@ -6,19 +6,18 @@ package test;
 
 import java.util.Scanner;
 
-
 public class EjercicioAprendizaje6 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese un número para determinar si es par o no: ");
         int num = leer.nextInt();
-        
-        if(num%2==0){
+
+        if (num % 2 == 0) {
             System.out.println("El número es par.");
-        }else{
+        } else {
             System.out.println("El número es impar.");
         }
-        
+
     }
 }

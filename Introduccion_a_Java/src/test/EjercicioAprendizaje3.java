@@ -7,16 +7,14 @@ package test;
 
 import java.util.Scanner;
 
-
 public class EjercicioAprendizaje3 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Escriba la frase: ");
         String frase = leer.nextLine();
-        
-        System.out.println(frase.toLowerCase());//minusculas
-        System.out.println(frase.toUpperCase());//mayusculas
+
+        System.out.println(frase.toLowerCase());// minusculas
+        System.out.println(frase.toUpperCase());// mayusculas
     }
 }
-   

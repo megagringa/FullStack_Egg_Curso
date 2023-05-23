@@ -9,23 +9,20 @@ package test;
 
 import java.util.Scanner;
 
-
 public class EjercicioAprendizaje8 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese una frase de 8 caracteres de largo.");
         System.out.println("Si tiene 8 es Correcto.");
         System.out.println("Ingrese: ");
         String frase = leer.nextLine();
-        
-        if(frase.length()==8){
+
+        if (frase.length() == 8) {
             System.out.println("Correcto!!...");
-        }else{
+        } else {
             System.out.println("Incorrecto!!...");
         }
-        
-  
+
     }
 }
-   

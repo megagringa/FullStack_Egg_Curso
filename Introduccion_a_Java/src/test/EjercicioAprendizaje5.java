@@ -7,17 +7,15 @@ package test;
 
 import java.util.Scanner;
 
-
 public class EjercicioAprendizaje5 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese el numero en donde se devolvera.");
         System.out.println("El doble, el triple y la raíz cuadrada.");
         int num = leer.nextInt();
-        
-        System.out.println("El numero es: "+num+" y su doble es: "+num*2+".");
-        System.out.println("Su triple es: "+num*3+" y su raíz cuadrada es: "+Math.sqrt(num));
+
+        System.out.println("El numero es: " + num + " y su doble es: " + num * 2 + ".");
+        System.out.println("Su triple es: " + num * 3 + " y su raíz cuadrada es: " + Math.sqrt(num));
     }
 }
- 

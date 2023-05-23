@@ -15,28 +15,28 @@ package test;
 
 import java.util.Scanner;
 
-
 public class EjercicioAprendizaje12 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
-    
+        Scanner leer = new Scanner(System.in);
+
         System.out.println("Ingrese una cadena con 5 caracteres como maximo,");
+        System.out.println("Si ingresa el valor &&&&& el programa termina.");
         System.out.println("El primer caracter inicia en X y el último en O");
         String cadena;
-        
-        int i = 0;
-        int contador = 0;
-        
-        do{
+
+        int i = 0, contador = 0;
+
+        do {
             cadena = leer.next();
             i++;
-            if(cadena.length()==5){
-                if(cadena.substring(0,1).equals("X") && cadena.substring(3,4).equals("O")){
+            if (cadena.length() == 5) {
+                if (cadena.substring(0, 1).equals("X") && cadena.substring(3, 4).equals("O")) {
                     contador++;
                 }
             }
-        }while(!cadena.equals("&&&&&"));
-        System.out.println("La cantidad de frase ingresadas es: "+(i-1)+" con "+contador+" correctas y "+(i-1-contador)+" incorrectas.");
-}
+        } while (!cadena.equals("&&&&&"));
+        System.out.println("La cantidad de frase ingresadas es: " + (i - 1) + " con " + contador + " correctas y "
+                + (i - 1 - contador) + " incorrectas.");
+    }
 }

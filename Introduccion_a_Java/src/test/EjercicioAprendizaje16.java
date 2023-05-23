@@ -9,9 +9,13 @@ import java.util.Scanner;
 public class JavaintroExercise16 {
 
     public static void main(String[] args) {
-        /*Realizar un algoritmo que rellene un vector de tamaño N con valores aleatorios y le pida
-        al usuario un numero a buscar en el vector. El programa mostrará donde se encuentra el
-        numero y si se encuentra repetido*/
+        /*
+         * Realizar un algoritmo que rellene un vector de tamaño N con valores
+         * aleatorios y le pida
+         * al usuario un numero a buscar en el vector. El programa mostrará donde se
+         * encuentra el
+         * numero y si se encuentra repetido
+         */
 
         Scanner read = new Scanner(System.in);
         int vector[] = new int[15];

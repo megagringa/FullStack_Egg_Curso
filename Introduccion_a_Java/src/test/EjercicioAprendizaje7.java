@@ -8,21 +8,20 @@ package test;
 
 import java.util.Scanner;
 
-
 public class EjercicioAprendizaje7 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese una frase.");
         System.out.println("Si es eureka dirá correcto.");
         System.out.println("Ingrese una frase: ");
         String frase = leer.nextLine();
-        
-        if(frase.equals("eureka")){
+
+        if (frase.equals("eureka")) {
             System.out.println("Correcto!!...");
-        }else{
+        } else {
             System.out.println("Incorrecto!!...");
         }
-  
+
     }
 }

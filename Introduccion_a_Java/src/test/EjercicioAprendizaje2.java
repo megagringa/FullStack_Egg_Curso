@@ -7,14 +7,13 @@ package test;
 
 import java.util.Scanner;
 
-
 public class EjercicioAprendizaje2 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Escriba su nombre: ");
         String nombre = leer.nextLine();
-        
-        System.out.println("Su nombre es :"+nombre);
+
+        System.out.println("Su nombre es :" + nombre);
     }
 }

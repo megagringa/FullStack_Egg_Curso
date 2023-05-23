@@ -2,13 +2,15 @@ package javaintro.exercises;
 
 /**
  *
- * @author Sheepard
  */
 public class JavaintroExercise17 {
 
     public static void main(String[] args) {
-        /*Recorrer un vector de N enteros contabilizando cuántos números son de 1 dígito, cuántos
-        de 2 dígitos, etcétera (hasta 5 dígitos).*/
+        /*
+         * Recorrer un vector de N enteros contabilizando cuántos números son de 1
+         * dígito, cuántos
+         * de 2 dígitos, etcétera (hasta 5 dígitos).
+         */
 
         int vector[] = new int[100], counter[] = new int[5];
         int length;
@@ -43,6 +45,8 @@ public class JavaintroExercise17 {
                     break;
             }
         }
-        System.out.println("Se encontraron: " + counter[0] + " numeros de 1 digito, " + counter[1] + " numeros de 2 digitos, " + counter[2] + " numeros de 3 digitos, " + counter[3] + " numeros de 4 digitos y " + counter[4] + " numeros de 5 digitos.");
+        System.out.println("Se encontraron: " + counter[0] + " numeros de 1 digito, " + counter[1]
+                + " numeros de 2 digitos, " + counter[2] + " numeros de 3 digitos, " + counter[3]
+                + " numeros de 4 digitos y " + counter[4] + " numeros de 5 digitos.");
     }
 }

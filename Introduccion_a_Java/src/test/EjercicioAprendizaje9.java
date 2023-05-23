@@ -9,22 +9,20 @@ package test;
 
 import java.util.Scanner;
 
-
 public class EjercicioAprendizaje9 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Si ingresa una frase o palabra.");
         System.out.println("Si la primera letra es una 'A' se imprime Correcto.");
         System.out.println("Escriba la frase o palabra: ");
         String frase = leer.nextLine();
-        
-        if(frase.substring(0, 1).equals("A")){
+
+        if (frase.substring(0, 1).equals("A")) {
             System.out.println("Correcto!!!...");
-        }else{
+        } else {
             System.out.println("Incorrecto!!!...");
         }
-        
+
     }
 }
-   
