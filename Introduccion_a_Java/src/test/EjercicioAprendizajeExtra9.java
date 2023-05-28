@@ -15,34 +15,30 @@ package test;
 
 import java.util.Scanner;
 
-
-
-
-
 public class EjercicioAprendizajeExtra9 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
-    int cociente = 0, residuo;
-    
+        Scanner leer = new Scanner(System.in);
+        int cociente = 0, residuo;
+
         System.out.println("Ingrese el dividendo: ");
         int dividendo = leer.nextInt();
         System.out.println("Ingrese el divisor: ");
         int divisor = leer.nextInt();
-        
+
         /*
-        Por ejemplo: 50 / 13:
-        50 – 13 = 37 una resta realizada
-        37 – 13 = 24 dos restas realizadas
-        24 – 13 = 11 tres restas realizadas
-        dado que 11 es menor que 13, entonces: el residuo es 11 y el cociente es 3.
-        */
-        while(dividendo>=divisor){
-            dividendo = dividendo - divisor;
+         * Por ejemplo: 50 / 13:
+         * 50 – 13 = 37 una resta realizada
+         * 37 – 13 = 24 dos restas realizadas
+         * 24 – 13 = 11 tres restas realizadas
+         * dado que 11 es menor que 13, entonces: el residuo es 11 y el cociente es 3.
+         */
+        while (dividendo >= divisor) {
+            dividendo -= divisor;
             cociente++;
         }
         residuo = dividendo;
         System.out.println("El cociente es " + cociente + " y el residuo es " + residuo);
- }   
-   
+    }
+
 }

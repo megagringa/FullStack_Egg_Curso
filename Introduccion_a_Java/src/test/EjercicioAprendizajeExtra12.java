@@ -14,29 +14,23 @@ Nota: investigar función equals() y como convertir números a String.
 */
 package test;
 
-
-
-
-
-
-
 public class EjercicioAprendizaje12 {
 
     public static void main(String[] args) {
-    for(int i=0;i<=999;i++){
-        String num = String.format("%03d",i);
-        if(num.charAt(0)=='3'){
-            num = "E" + num.substring(1);
+        for (int i = 0; i <= 999; i++) {
+            String num = String.format("%03d", i);
+            if (num.charAt(0) == '3') {
+                num = "E" + num.substring(1);
+            }
+            if (num.charAt(1) == '3') {
+                num = "E" + num.substring(0, 1) + "E" + num.substring(2);
+            }
+            if (num.charAt(2) == '3') {
+                num = num.substring(0, 2) + "E";
+            }
+            System.out.println(num);
         }
-        if(num.charAt(1)=='3'){
-            num = "E" + num.substring(0,1) + "E" + num.substring(2);
-        }
-        if(num.charAt(2)=='3'){
-            num = num.substring(0,2) + "E";
-        }
-        System.out.println(num);
+
     }
-        
- }   
-   
+
 }

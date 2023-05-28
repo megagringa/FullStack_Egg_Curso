@@ -15,44 +15,40 @@ igual al 7 de sus notas del curso.
 */
 package test;
 
-
-
-
 public class EjercicioAprendizajeExtra21 {
 
     public static void main(String[] args) {
-    
-     double[][] notas = {{7.0, 5.5, 8.0, 6.5}, 
-                        {4.5, 6.5, 7.0, 5.5}, 
-                        {8.5, 9.0, 6.0, 7.5}, 
-                        {6.0, 5.5, 7.0, 6.5}, 
-                        {6.5, 7.5, 9.0, 8.0}, 
-                        {8.0, 7.5, 6.0, 6.5}, 
-                        {9.0, 9.5, 8.0, 9.5}, 
-                        {6.5, 7.0, 7.5, 8.0}, 
-                        {7.5, 8.0, 8.5, 9.0}, 
-                        {5.5, 4.0, 6.5, 5.0}}; 
-        
-     
-     int aprobados = 0;
-     int desaprobados = 0;
-     
-     for(int i=0;i<notas.length;i++){
-         double promedio = calcularPromedio(notas[i]);
-         if(promedio>=7){
-             aprobados++;
-         }else{
-             desaprobados++;
-         }
-         
-     }
-        System.out.println("Cantidad de aprobados: "+aprobados);
-        System.out.println("Cantidad de desaprobados: "+desaprobados);
+
+        double[][] notas = { { 7.0, 5.5, 8.0, 6.5 },
+                { 4.5, 6.5, 7.0, 5.5 },
+                { 8.5, 9.0, 6.0, 7.5 },
+                { 6.0, 5.5, 7.0, 6.5 },
+                { 6.5, 7.5, 9.0, 8.0 },
+                { 8.0, 7.5, 6.0, 6.5 },
+                { 9.0, 9.5, 8.0, 9.5 },
+                { 6.5, 7.0, 7.5, 8.0 },
+                { 7.5, 8.0, 8.5, 9.0 },
+                { 5.5, 4.0, 6.5, 5.0 } };
+
+        int aprobados = 0, desaprobados = 0;
+
+        for (int i = 0; i < notas.length; i++) {
+            double promedio = calcularPromedio(notas[i]);
+            if (promedio >= 7) {
+                aprobados++;
+            } else {
+                desaprobados++;
+            }
+
         }
-    public static double calcularPromedio(double[] notas){
+        System.out.println("Cantidad de aprobados: " + aprobados);
+        System.out.println("Cantidad de desaprobados: " + desaprobados);
+    }
+
+    public static double calcularPromedio(double[] notas) {
         double promedio = 0;
-        promedio += notas[0] * 0.1;    // Primer trabajo práctico evaluativo
-        promedio += notas[1] * 0.15;  // Segundo trabajo práctico evaluativo
+        promedio += notas[0] * 0.1; // Primer trabajo práctico evaluativo
+        promedio += notas[1] * 0.15; // Segundo trabajo práctico evaluativo
         promedio += notas[2] * 0.25; // Primer integrador
         promedio += notas[3] * 0.5; // Segundo integrador
         return promedio;

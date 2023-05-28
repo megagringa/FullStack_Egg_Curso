@@ -10,28 +10,24 @@ package test;
 
 import java.util.Scanner;
 
-
-
-
-
 public class EjercicioAprendizajeExtra10 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
-    
-    int num1 = (int)(Math.random()*11);
-    int num2 = (int)(Math.random()*11);
-    int resultado;
-    
-    do{
-        System.out.println("Cuanto es "+num1+" * "+num2+" ??.");
-        resultado = leer.nextInt();
-        if(resultado == num1*num2){
-            System.out.println("Correcto!!!...");
-        }else{
-            System.out.println("Incorrecto!!!... Ingrese su respuesta nuevamente.");
-        }
-    }while(resultado != num1*num2);
- }   
-   
+        Scanner leer = new Scanner(System.in);
+
+        int num1 = (int) (Math.random() * 11);
+        int num2 = (int) (Math.random() * 11);
+        int resultado;
+
+        do {
+            System.out.println("Cuanto es " + num1 + " * " + num2 + " ??.");
+            resultado = leer.nextInt();
+            if (resultado == num1 * num2) {
+                System.out.println("Correcto!!!...");
+            } else {
+                System.out.println("Incorrecto!!!... Ingrese su respuesta nuevamente.");
+            }
+        } while (resultado != num1 * num2);
+    }
+
 }

@@ -8,24 +8,17 @@ package test;
 
 import java.util.Arrays;
 
-
-
-
-
-
-
 public class EjercicioAprendizajeExtra19 {
 
     public static void main(String[] args) {
-    
-            
-        int[]vector1 = {1,2,3,4,5};
-        int[]vector2 = {1,2,3,4,5};
-        
-        if(Arrays.equals(vector1,vector2)){
+
+        int[] vector1 = { 1, 2, 3, 4, 5 };
+        int[] vector2 = { 1, 2, 3, 4, 5 };
+
+        if (Arrays.equals(vector1, vector2)) {
             System.out.println("Los vectores son iguales.");
-            
-        }else{
+
+        } else {
             System.out.println("Los vectores no son iguales.");
         }
     }

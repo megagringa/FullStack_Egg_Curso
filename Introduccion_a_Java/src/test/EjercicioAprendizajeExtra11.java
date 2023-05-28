@@ -10,24 +10,20 @@ package test;
 
 import java.util.Scanner;
 
-
-
-
-
 public class EjercicioAprendizajeExtra11 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese un numero entero: ");
         int num = leer.nextInt();
-        
+
         int contador = 0;
-        
-        while(num != 0){
+
+        while (num != 0) {
             num /= 10;
             contador++;
         }
-        System.out.println("Digitos: "+contador);
- }   
-   
+        System.out.println("Digitos: " + contador);
+    }
+
 }

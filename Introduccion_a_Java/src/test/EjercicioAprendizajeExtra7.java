@@ -10,41 +10,37 @@ package test;
 
 import java.util.Scanner;
 
-
-
-
-
 public class EjercicioAprendizaje7 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
-    
+        Scanner leer = new Scanner(System.in);
+
         System.out.println("Ingrese la cantidad de numeros a calcular: ");
         int n = leer.nextInt();
-        
+
         double sum = 0;
         double max = Double.NEGATIVE_INFINITY;
         double min = Double.POSITIVE_INFINITY;
-        
+
         int contador = 1;
-        
-        while(contador<=n){
+
+        while (contador <= n) {
             System.out.println("Ingrese un numero: ");
             double num = leer.nextDouble();
             sum += num;
-            
-            if(num>max){
+
+            if (num > max) {
                 max = num;
             }
-            
-            if(num<min){
+
+            if (num < min) {
                 min = num;
             }
             contador++;
         }
-        double promedio = sum/n;
-        System.out.println("Valor maximo: "+max);
-        System.out.println("Valor minimo: "+min);
-        System.out.println("El promedio: "+promedio);
- }   
+        double promedio = sum / n;
+        System.out.println("Valor maximo: " + max);
+        System.out.println("Valor minimo: " + min);
+        System.out.println("El promedio: " + promedio);
+    }
 }

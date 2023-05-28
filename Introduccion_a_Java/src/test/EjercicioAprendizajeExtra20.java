@@ -7,28 +7,27 @@ package test;
 
 import java.util.Random;
 
-
-
 public class EjercicioAprendizajeExtra20 {
 
     public static void main(String[] args) {
-    
-     int[]vector = new int[10];
-     llenarVector(vector);
-     imprimirVector(vector);   
+
+        int[] vector = new int[10];
+        llenarVector(vector);
+        imprimirVector(vector);
     }
-    public static void llenarVector(int[] vector){
+
+    public static void llenarVector(int[] vector) {
         Random rand = new Random();
-        for(int i=0;i<vector.length;i++){
-            vector[i]=rand.nextInt(100);
+        for (int i = 0; i < vector.length; i++) {
+            vector[i] = rand.nextInt(100);
         }
-    
-        
+
     }
-    public static void imprimirVector(int[]vector){
-            for(int i=0;i<vector.length;i++){
-                System.out.println(vector[i]+" ");
-            }
-            System.out.println();
+
+    public static void imprimirVector(int[] vector) {
+        for (int i = 0; i < vector.length; i++) {
+            System.out.println(vector[i] + " ");
         }
+        System.out.println();
+    }
 }

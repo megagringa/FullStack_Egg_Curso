@@ -16,31 +16,26 @@ package test;
 
 import java.util.Scanner;
 
-
-
-
-
-
-
 public class EjercicioAprendizajeExtra17 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Introduce un numero para saber si es primo: ");
         int primo = leer.nextInt();
-        
-        if(numPrimo(primo)){
-            System.out.println(primo+" es primo.");
-        }else{
-            System.out.println(primo+" no es primo.");
+
+        if (numPrimo(primo)) {
+            System.out.println(primo + " es primo.");
+        } else {
+            System.out.println(primo + " no es primo.");
         }
     }
-    public static boolean numPrimo(int primo){
-        if(primo<=1){
+
+    public static boolean numPrimo(int primo) {
+        if (primo <= 1) {
             return false;
         }
-        for(int i=2;i<=Math.sqrt(primo);i++){
-            if(primo%i==0){
+        for (int i = 2; i <= Math.sqrt(primo); i++) {
+            if (primo % i == 0) {
                 return false;
             }
         }

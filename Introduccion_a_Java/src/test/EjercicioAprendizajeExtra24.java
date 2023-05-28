@@ -19,28 +19,24 @@ package test;
 
 import java.util.Scanner;
 
-
-
 public class EjercicioAprendizajeExtra24 {
-
-   
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese los numeros para la sucesion de Fibonacci: ");
         int num = leer.nextInt();
-        
-        int[] fibonacci =new int[num];
-        fibonacci[0]=1;
-        if(num>1){
-            fibonacci[1]=1;
-            for(int i=2;i<num;i++){
-                fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
+
+        int[] fibonacci = new int[num];
+        fibonacci[0] = 1;
+        if (num > 1) {
+            fibonacci[1] = 1;
+            for (int i = 2; i < num; i++) {
+                fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
             }
         }
         System.out.println("La sucesion de Fibonacci es: ");
-        for(int i=0;i<num;i++){
-            System.out.print(fibonacci[i]+" ");
+        for (int i = 0; i < num; i++) {
+            System.out.print(fibonacci[i] + " ");
         }
 
     }

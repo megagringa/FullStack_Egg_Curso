@@ -9,43 +9,33 @@ package test;
 
 import java.util.Scanner;
 
-
-
-
-
 public class EjercicioAprendizajeExtra8 {
 
     public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);
-    int contadorroto = 0;
-    int contadorpar = 0;
-    int contadorimpar = 0;
-    
-      while(true){
-          System.out.println("Ingrese un numero entero: ");
-          int num = leer.nextInt();
-          
-          if(num%5==0){
-              break;
-          }
-          if(num<0){
-              continue;
-          }
-          contadorroto++;
-          
-          if(num%2==0){
-              contadorpar++;
-          }else{
-              contadorimpar++;
-          }
-          
-          /*System.out.println("Cantidad de numeros :"+contadorroto);
-          System.out.println("Cantidad de pares: "+contadorpar);
-          System.out.println("Cantidad de impares: "+contadorimpar);*/
-          
-      } 
-          System.out.println("Cantidad de numeros :"+contadorroto);
-          System.out.println("Cantidad de pares: "+contadorpar);
-          System.out.println("Cantidad de impares: "+contadorimpar);
- }   
+        Scanner leer = new Scanner(System.in);
+        int contadorroto = 0, contadorpar = 0, contadorimpar = 0;
+
+        while (true) {
+            System.out.println("Ingrese un numero entero: ");
+            int num = leer.nextInt();
+
+            if (num % 5 == 0) {
+                break;
+            }
+            if (num < 0) {
+                continue;
+            }
+            contadorroto++;
+
+            if (num % 2 == 0) {
+                contadorpar++;
+            } else {
+                contadorimpar++;
+            }
+
+        }
+        System.out.println("Cantidad de numeros :" + contadorroto);
+        System.out.println("Cantidad de pares: " + contadorpar);
+        System.out.println("Cantidad de impares: " + contadorimpar);
+    }
 }

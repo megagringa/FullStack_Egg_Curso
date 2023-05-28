@@ -11,25 +11,19 @@ package test;
 
 import java.util.Scanner;
 
-
-
-
-
-
-
 public class EjercicioAprendizajeExtra13 {
 
     public static void main(String[] args) {
-       Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese la cantidad de numeros para hacer la escalera: ");
         int altura = leer.nextInt();
-        
-        for(int i=1;i<=altura;i++){ // toma la cantidad 
-            for(int j=1;j<=i;j++){  //
+
+        for (int i = 1; i <= altura; i++) { // toma la cantidad
+            for (int j = 1; j <= i; j++) { //
                 System.out.print(j);
             }
             System.out.println("");
         }
- }   
-   
+    }
+
 }

@@ -10,10 +10,6 @@ package test;
 
 import java.util.Scanner;
 
-
-
-
-
 public class EjercicioAprendizaje7-2 {
 
     public static void main(String[] args) {
@@ -45,5 +41,6 @@ public class EjercicioAprendizaje7-2 {
         System.out.println("El valor máximo es: " + max);
         System.out.println("El valor mínimo es: " + min);
         System.out.println("El promedio es: " + promedio);
- }   
+ }
 }
+
