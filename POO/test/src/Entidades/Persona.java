@@ -10,22 +10,21 @@ package Entidades;
  * @author ing_j
  */
 public class Persona {
-    
+
     private String nombre;
     private String apellido;
     private int edad;
-    
-    
-    //CONTRUCTOR POR DEFECTO
+
+    // CONTRUCTOR POR DEFECTO
     public Persona() {
     }
-    
-    //CONTRUCTOR POR PARAMETROS 
+
+    // CONTRUCTOR POR PARAMETROS
     public Persona(String nombre, String apellido, Integer edad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
-        
+
     }
 
     public String getNombre() {
@@ -52,14 +51,9 @@ public class Persona {
         this.edad = edad;
     }
 
-    
     public static void mostrarDatosPersona(Persona persona) {
         System.out.println("Nombre: " + persona.getNombre());
         System.out.println("Apellido: " + persona.getApellido());
         System.out.println("Edad: " + persona.getEdad());
     }
 }
-    
-    
-    
-
