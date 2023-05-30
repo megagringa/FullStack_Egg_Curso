@@ -18,6 +18,6 @@
 3_Guía POO(Orientación_a_Objetos).
 4_Guía Colecciones.
 5_Guía Relaciones_entre_Clases.
-6_Herencia - Comenzando -.
+6_Herencia.
 ```
     
