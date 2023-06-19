@@ -25,3 +25,4 @@
 | --- | --- |
 |  1  | [Ejercicios_1](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/SQL/Manos_Obra_1)|
 |  2  | [Ejercicios_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/SQL/Manos_Obra_2)|
+|  3  | [Ejercicios_3](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/SQL/Manos_Obra_3)|
