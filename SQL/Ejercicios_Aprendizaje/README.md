@@ -73,18 +73,57 @@ empleado y el total a pagar, en orden alfabético.
 ---
 
 13. Muestra los empleados cuyo nombre empiece con la letra J.
+- SELECT * FROM empleados WHERE nombre LIKE 'J%';
+---
+
 14. Listar el salario, la comisión, el salario total (salario + comisión) y nombre, de aquellos
 empleados que tienen comisión superior a 1000.
+- SELECT sal_emp,comision_emp,(sal_emp + comision_emp) AS salarioTotal,nombre 
+- FROM empleados
+- WHERE comision_emp>1000;
+---
+
 15. Obtener un listado similar al anterior, pero de aquellos empleados que NO tienen
 comisión.
+- SELECT sal_emp, 0 AS comision_emp, sal_emp AS salarioTotal,nombre 
+- FROM empleados
+- WHERE comision_emp = 0
+---
+
 16. Obtener la lista de los empleados que ganan una comisión superior a su sueldo.
+- SELECT * 
+- FROM empleados
+- WHERE comision_emp>sal_emp;
+---
+
 17. Listar los empleados cuya comisión es menor o igual que el 30% de su sueldo.
+- SELECT *
+- FROM empleados
+- WHERE comision_emp<=(sal_emp*0.3);
+---
+
 18. Hallar los empleados cuyo nombre no contiene la cadena “MA”
+- SELECT *
+- FROM empleados
+- WHERE nombre NOT LIKE '%MA%';
+---
+
 19. Obtener los nombres de los departamentos que sean “Ventas”, “Investigación” o
 ‘Mantenimiento.
+- SELECT nombre_depto
+- FROM departamentos
+- WHERE nombre_depto IN ('Ventas','Investigacion','Mantenimiento');
+---
+
 20. Ahora obtener el contrario, los nombres de los departamentos que no sean “Ventas” ni
 “Investigación” ni ‘Mantenimiento.
+- SELECT nombre_depto
+- FROM departamentos
+- WHERE nombre_depto NOT IN ('Ventas','Investigacion','Mantenimiento');
+---
+
 21. Mostrar el salario más alto de la empresa.
+---
 22. Mostrar el nombre del último empleado de la lista por orden alfabético.
 23. Hallar el salario más alto, el más bajo y la diferencia entre ellos.
 24. Hallar el salario promedio por departamento.
