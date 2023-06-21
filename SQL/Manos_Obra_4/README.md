@@ -17,11 +17,19 @@ deberemos abrir el script llamado “superhéroes.sql” y ejecutarlo de modo ta
 la base de datos y todas sus tablas.
 2. Analiza el script detenidamente, línea por línea, ayudándote con la guía. Intenta
 comprender qué pasa en cada sentencia del script. Luego contesta:
+
+---
+
 ¿Cuántas columnas posee la tabla “creador”?
 - a. 0
 - b. 1
 - c. 2
 - d. 3
+
+---
+- c. 2
+
+---
 
 ¿Cuántas columnas numéricas posee la tabla “personaje”?
 - a. 11
@@ -29,11 +37,21 @@ comprender qué pasa en cada sentencia del script. Luego contesta:
 - c. 10
 - d. 12
 
+---
+- c. 10
+
+---
+
 ¿Cuántas columnas de la tabla “personaje” pueden ser nulas?
 - a. Todas las columnas
 - b. 12
 - c. 10
 - d. Ninguna columna
+
+---
+- d. Ninguna columna
+
+---
 
 ¿Qué significa la primera línea del script?
 - a. Selecciona la base de datos sobre la cual se aplicarán las siguientes sentencias.
@@ -41,4 +59,14 @@ comprender qué pasa en cada sentencia del script. Luego contesta:
 - c. Elimina la base de datos en caso de ya estar creada.
 - d. Ninguna de las anteriores
 
+---
+- d. Ninguna de las anteriores
+
+---
+
 3. Elimina la base de datos “superhéroes.sql”.
+
+---
+- DROP DATABASE superheroes; 
+
+---
