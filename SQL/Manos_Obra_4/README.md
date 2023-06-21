@@ -5,6 +5,13 @@ archivo scriptsBD.zip que contiene algunos scripts con las bases de datos sobre 
 a trabajar. En cada ejercicio se indica el nombre del script que se debe utilizar. Para abrir y
 ejecutar los scripts van a encontrar un pdf de cómo hacerlo en Moodle, con el nombre de Tutorial
 Scripts SQL.
+
+---
+
+Descargar el contenido en la carpeta 
+[Base de Datos](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/BD-Descargas)
+
+---
 1. ¡Ahora ejecutaremos un script y crearemos una base de datos por primera vez! Primero,
 deberemos abrir el script llamado “superhéroes.sql” y ejecutarlo de modo tal que se cree
 la base de datos y todas sus tablas.
