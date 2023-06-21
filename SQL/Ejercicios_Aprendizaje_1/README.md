@@ -123,17 +123,68 @@ comisión.
 ---
 
 21. Mostrar el salario más alto de la empresa.
+- SELECT MAX(sal_emp) AS salarioMaximo
+- FROM empleados;
 ---
+
 22. Mostrar el nombre del último empleado de la lista por orden alfabético.
+- SELECT nombre
+- FROM empleados
+- ORDER BY nombre DESC
+- LIMIT 1;
+---
+
 23. Hallar el salario más alto, el más bajo y la diferencia entre ellos.
+- SELECT MAX(sal_emp) AS salario_maximo, MIN(sal_emp) AS salario_minimo, MAX(sal_emp) - MIN(sal_emp) AS diferencia_salarios
+- FROM empleados;
+
+---
+
 24. Hallar el salario promedio por departamento.
-Consultas con Having
+- SELECT d.nombre_depto, AVG(e.sal_emp) AS salario_promedio
+- FROM departamentos d
+- JOIN empleados e ON d.id_depto = e.id_depto
+- GROUP BY d.nombre_depto;
+---
+
+### Consultas con Having
+
 25. Hallar los departamentos que tienen más de tres empleados. Mostrar el número de
 empleados de esos departamentos.
+- SELECT d.nombre_depto, COUNT(e.id_emp) AS cantidad_empleados
+- FROM departamentos d
+- JOIN empleados e ON d.id_depto = e.id_depto
+- GROUP BY d.nombre_depto
+- HAVING COUNT(e.id_emp) > 3;
+---
+
 26. Hallar los departamentos que no tienen empleados
-Consulta Multitabla (Uso de la sentencia JOIN/LEFT JOIN/RIGHT JOIN)
+- SELECT d.nombre_depto
+- FROM departamentos d
+- LEFT JOIN empleados e ON d.id_depto = e.id_depto
+- WHERE e.id_emp IS NULL;
+---
+
+## Consulta Multitabla (Uso de la sentencia JOIN/LEFT JOIN/RIGHT JOIN)
+
 27. Mostrar la lista de empleados, con su respectivo departamento y el jefe de cada
 departamento.
-Consulta con Subconsulta
+- SELECT e.nombre AS nombre_empleado, d.nombre_depto AS nombre_departamento, d.nombre_jefe_depto AS nombre_jefe_departamento
+- FROM empleados e
+- JOIN departamentos d ON e.id_depto = d.id_depto;
+---
+### Consulta con Subconsulta
+
 28. Mostrar la lista de los empleados cuyo salario es mayor o igual que el promedio de la
 empresa. Ordenarlo por departamento.
+- SELECT e.nombre AS nombre_empleado, e.sal_emp, d.nombre_depto AS nombre_departamento
+- FROM empleados e
+- JOIN departamentos d ON e.id_depto = d.id_depto
+- WHERE e.sal_emp >= (
+  SELECT AVG(sal_emp) FROM empleados
+)
+ORDER BY d.nombre_depto;
+---
+
+
+Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
