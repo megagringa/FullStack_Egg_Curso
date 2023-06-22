@@ -1,6 +1,12 @@
 Abrir el script llamado “personal” y ejecutarlo de modo tal que se cree la base de datos
 “personal”, se creen las tablas y se inserten todos los datos en las tablas.
 
+---
+Descargar el contenido en la carpeta 
+[Base de Datos](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/BD-Descargas)
+
+---
+
 a) A continuación, realizar las siguientes consultas sobre la base de datos personal:
 
 1. Obtener los datos completos de los empleados.
