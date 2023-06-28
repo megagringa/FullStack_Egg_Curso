@@ -30,3 +30,4 @@
 |  6  | [Ejercicios_Aprendizaje_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_2)|
 |  7  | [Ejercicios_Aprendizaje_Extra_1](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_1)|
 |  7  | [Ejercicios_Aprendizaje_Extra_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_2)|
+|  8 | [Ejercicios_Aprendizaje_Extra_3]()|
