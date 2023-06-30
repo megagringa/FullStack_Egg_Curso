@@ -15,5 +15,10 @@ una excepción (“Throwing Exception”). Luego, el objeto, llamado excepción,
 sobre el error, incluyendo su tipo y el estado del programa cuando el error ocurrió.
 
 ---
+Si necesitas la guía puedes verlo en [Excepciones](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia/Manejo_Excepciones.pdf).
 
+---
+---
 Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
+
+---

@@ -9,4 +9,11 @@ colecciones
 - Agregar, buscar y eliminar elementos en las
 colecciones
 
+---
+Si necesitas la guía puedes verlo en [Colecciones](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia/Colecciones.pdf).
+
+---
+---
 Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
+
+---

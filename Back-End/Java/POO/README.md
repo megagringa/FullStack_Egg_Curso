@@ -11,4 +11,12 @@ fundamentos.
 los objetos.
 - Utilizar entidades y clases de servicio desde el Main
 
+---
+Si necesitas la guía puedes verlo en [POO](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia/POO.pdf).
+
+---
+---
+
 Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
+
+---

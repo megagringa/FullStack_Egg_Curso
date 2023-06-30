@@ -8,4 +8,12 @@ contrario, las clases están relacionadas unas con otras. Una clase puede ser un
 —generalización— o bien puede contener objetos de otra clase de varias formas posibles,
 dependiendo de la fortaleza de la relación entre las dos clases.
 
+---
+Si necesitas la guía puedes verlo en [Relaciones](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia/Relaciones_Entre_Clases.pdf).
+
+---
+---
+
 Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
+
+---

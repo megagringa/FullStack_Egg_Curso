@@ -11,6 +11,9 @@ Volver al principio del repositorio.
 Si necesitas la guía puedes verlo en [Java_Intro](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia/Java_Intro.pdf).
 
 ---
+Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
+
+---
 
 En esta guia se aprende a usar:
 - Lógica de programación
@@ -22,4 +25,6 @@ En esta guia se aprende a usar:
 - Uso de do-while
 - Uso de vector - matrices 
 
-Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
+---
+---
+
