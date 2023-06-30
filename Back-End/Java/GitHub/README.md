@@ -9,6 +9,11 @@ desarrolladores pueden ir atrás en el tiempo y comparar las versiones anteriore
 ayudar a resolver el error al tiempo que se minimizan las interrupciones para todos los miembros
 del equipo.
 
+---
+Si necesitas la [Guía](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia) descarga Git_con_GitHub.
+
+---
+
 Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
 
 Comandos git:

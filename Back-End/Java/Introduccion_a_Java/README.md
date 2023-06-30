@@ -6,6 +6,12 @@ lenguaje de máquina mediante traductores o compiladores. Java es un lenguaje de
 donde sus palabras reservadas están en ingles.
 Volver al principio del repositorio. 
 
+---
+
+Si necesitas la [Guía](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia) descarga Java_Intro
+
+---
+
 En esta guia se aprende a usar:
 - Lógica de programación
 - Uso de palabras reservadas
