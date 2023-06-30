@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Entidades;
 
@@ -12,7 +11,6 @@ import java.util.Scanner;
  * @author ing_j
  */
 public class Libro {
-
     private int isbn;
     private String titulo;
     private String autor;
@@ -31,31 +29,39 @@ public class Libro {
         this.isbn = isbn;
     }
 
-    public void cargarLibros() {
-        Scanner leer = new Scanner(System.in);
+    public int getIsbn() {
+        return isbn;
+    }
 
-        System.out.println("Ingrese el ISBN del libro: ");
-        isbn = leer.nextInt();
-        leer.nextLine();
-        System.out.println("Ingrese el título del libro: ");
-        titulo = leer.nextLine();
-        //leer.nextInt();
-        System.out.println("Ingrese el autor del libro: ");
-        autor = leer.nextLine();
-        System.out.println("Ingrese el numero de páginas del libro: ");
-        npaginas = leer.nextInt();
-        
+    public void setIsbn(int isbn) {
+        this.isbn = isbn;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public int getNpaginas() {
+        return npaginas;
+    }
+
+    public void setNpaginas(int npaginas) {
+        this.npaginas = npaginas;
     }
 
     
-    
-    public void mostrarInformacion(){
-        System.out.println("ISBN: " +this.isbn);
-        System.out.println("Título: " +this.titulo);
-        System.out.println("Autor: " +this.autor);
-        System.out.println("Número de páginas: " +this.npaginas);
-        
-    }
     
     
 }
