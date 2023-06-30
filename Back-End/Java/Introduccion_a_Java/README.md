@@ -8,7 +8,7 @@ Volver al principio del repositorio.
 
 ---
 
-Si necesitas la [Guía](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia) descarga Java_Intro
+Si necesitas la guía puedes verlo en [Java_Intro](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia/Java_Intro.pdf).
 
 ---
 

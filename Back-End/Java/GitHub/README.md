@@ -10,7 +10,7 @@ ayudar a resolver el error al tiempo que se minimizan las interrupciones para to
 del equipo.
 
 ---
-Si necesitas la [Guía](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia) descarga Git_con_GitHub.
+Si necesitas la guía puedes verlo aqui en [Git_con_GitHub](https://github.com/megagringa/FullStack_Egg_Curso/blob/main/Guia/Git_con_GitHub.pdf).
 
 ---
 
