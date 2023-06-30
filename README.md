@@ -27,11 +27,13 @@
 |  2  | [Ejercicios_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Manos_Obra_2)|
 |  3  | [Ejercicios_3](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Manos_Obra_3)|
 |  4  | [Ejercicios_4](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Manos_Obra_4)|
-|  5  | [Ejercicios_Aprendizaje_1](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_1)|
-|  6  | [Ejercicios_Aprendizaje_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_2)|
-|  7  | [Ejercicios_Aprendizaje_Extra_1](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_1)|
-|  7  | [Ejercicios_Aprendizaje_Extra_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_2)|
-|  8 | [Ejercicios_Aprendizaje_Extra_3]|
+|  5  | [Ejercicios_5]|
+|  6  | [Ejercicios_6]|
+|  7  | [Ejercicios_Aprendizaje_1](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_1)|
+|  8  | [Ejercicios_Aprendizaje_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_2)|
+|  9  | [Ejercicios_Aprendizaje_Extra_1](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_1)|
+|  10  | [Ejercicios_Aprendizaje_Extra_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_2)|
+|  11 | [Ejercicios_Aprendizaje_Extra_3]|
 
 ---
 ---
