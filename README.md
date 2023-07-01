@@ -2,10 +2,10 @@
 
 ## Año de cursado 2023
 
-### Repositorio del curso de Full Stack de Egg en donde abordaremos diferentes tecnologías y subire todos los ejercicios propuestos y algunos ejemplos más.
+#### Repositorio del curso de Full Stack de Egg en donde abordaremos diferentes tecnologías y subire todos los ejercicios propuestos y algunos ejemplos más.
 
 ---
-### Todo lo que voy subiendo es actual, su contenido hasta el momento es de java, SQL y JDBC.
+#### Todo lo que voy subiendo es actual, su contenido hasta el momento es de java, SQL y JDBC.
 
 ---
 
