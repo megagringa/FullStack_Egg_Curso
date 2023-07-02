@@ -22,7 +22,7 @@
 | --- | --- |
 |  #  | Integradores |
 |  1  | [Iron Man](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/Java/EIntegrador_1/Iron_Man) |
-|  1  | [Candados] |
+|  1  | [Candados](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Candados) |
 | --- | --- |
 |  #  | SQL |
 |  1  | [Ejercicios_1](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Manos_Obra_1)|
