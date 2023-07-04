@@ -38,7 +38,9 @@
 |  11 | [Ejercicios_Aprendizaje_Extra_3](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_3)|
 | --- | --- |
 |  #  | JDBC |
-|  #  | --- |
+|  ---  | --- |
+|  1  | [Ejercicios_Aprendizaje_1] |
+|  2  | [Ejercicios_Aprendizaje_Extra_1] |
 
 ---
 ---
