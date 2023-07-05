@@ -32,7 +32,7 @@
 |  7  | [Ejercicios_Aprendizaje_1](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_1)|
 |  8  | [Ejercicios_Aprendizaje_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_2)|
 |  9  | [Ejercicios_Aprendizaje_Extra_1](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_1)|
-|  10  | [Ejercicios_Aprendizaje_Extra_2](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_2)|
+|  10  | [Ejercicios_Aprendizaje_Extra_2]|
 |  11 | [Ejercicios_Aprendizaje_Extra_3](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Ejercicios_Aprendizaje_Extra_3)|
 | --- | --- |
 | --- | --- |
@@ -44,7 +44,7 @@
 | --- | --- |
 |  #  | Integradores |
 | --- | --- |
-|  1  | [Iron Man](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/Java/EIntegrador_1/Iron_Man) |
+|  1  | [Iron Man] |
 |  1  | [Candados](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Candados) |
 
 ---
