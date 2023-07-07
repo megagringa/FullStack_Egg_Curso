@@ -50,6 +50,8 @@
 | --- | --- |
 |  #  | JPA |
 |  ---  | --- |
+|  1  | [Ejercicios_Aprendizaje_1] |
+|  2  | [Ejercicios_Aprendizaje_Extra_1] |
 
 ---
 ---
