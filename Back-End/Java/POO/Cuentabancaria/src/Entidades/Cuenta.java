@@ -13,7 +13,6 @@ import java.util.Scanner;
  */
 public class Cuenta {
 
-    
     private int numeroCuenta;
     private long dni;
     private int saldoActual;
@@ -62,19 +61,6 @@ public class Cuenta {
         this.interes = interes;
     }
 
-    public static Cuenta crearCuenta() {
-        Scanner leer = new Scanner(System.in);
-        System.out.println("Ingrese el numero de cuenta: ");
-        int numeroCuenta = leer.nextInt();
-        System.out.println("Ingrese el dni del cliente: ");
-        long dni = leer.nextInt();
-        System.out.println("Ingrese el saldo actual: ");
-        int saldoActual = leer.nextInt();
-        System.out.println("Ingrese el interes: ");
-        int interes = leer.nextInt();
-        return new Cuenta(numeroCuenta, dni, saldoActual, interes);
-    }
-
     public void ingresar(double ingreso) {
         saldoActual = (int) (saldoActual + ingreso);
         System.out.println("Se ha ingresado " + ingreso + " en la cuenta.");
@@ -96,7 +82,8 @@ public class Cuenta {
         Scanner leer = new Scanner(System.in);
         double retiro = leer.nextDouble();
         if (retiro > limite) {
-            System.out.println("No se puede retirar " + retiro + " porque supera el límite de extracción rápida (" + limite + ").");
+            System.out.println("No se puede retirar " + retiro + " porque supera el límite de extracción rápida ("
+                    + limite + ").");
         } else {
             saldoActual -= retiro;
             System.out.println("Se ha retirado " + retiro + " de la cuenta.");
