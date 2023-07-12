@@ -42,16 +42,16 @@
 |  2  | [Ejercicios_Aprendizaje_Extra_1] |
 | --- | --- |
 | --- | --- |
-|  #  | JPA |
-|  ---  | --- |
-|  1  | [Ejercicios_Aprendizaje_1] |
-|  2  | [Ejercicios_Aprendizaje_Extra_1] |
-| --- | --- |
-| --- | --- |
 |  #  | Integradores |
 | --- | --- |
 |  1  | [Iron Man] |
 |  1  | [Candados](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Candados) |
+| --- | --- |
+| --- | --- |
+|  #  | JPA |
+|  ---  | --- |
+|  1  | [Ejercicios_Aprendizaje_1] |
+|  2  | [Ejercicios_Aprendizaje_Extra_1] |
 
 ---
 ---
