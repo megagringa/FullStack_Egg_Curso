@@ -22,7 +22,6 @@ public class Service {
         leer.nextLine();
         System.out.println("Ingrese el título del libro: ");
         libro.setTitulo(leer.nextLine());
-        //leer.nextInt();
         System.out.println("Ingrese el autor del libro: ");
         libro.setAutor(leer.nextLine());
         System.out.println("Ingrese el numero de páginas del libro: ");
