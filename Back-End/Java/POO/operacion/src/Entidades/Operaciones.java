@@ -12,6 +12,7 @@ import java.util.Scanner;
  * @author ing_j
  */
 public class Operaciones {
+
     private double numero1;
     private double numero2;
 
@@ -40,7 +41,15 @@ public class Operaciones {
         this.numero2 = numero2;
     }
 
-    
+    public void crearOperaciones() {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese el primer numero para operar: ");
+        double numero1 = leer.nextInt();
+        this.numero1 = numero1;
+        System.out.println("Ingrese el segundo numero para operar: ");
+        double numero2 = leer.nextInt();
+        this.numero2 = numero2;
+    }
 
     public double sumar() {
         double sumar;
@@ -75,4 +84,5 @@ public class Operaciones {
         return dividir;
     }
     
+
 }

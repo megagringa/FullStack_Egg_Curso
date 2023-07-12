@@ -42,6 +42,16 @@ public class Rectangulo {
 
     }
 
+    public void obtenerDatos() {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese la altura: ");
+        altura = leer.nextInt();
+        //this.altura = altura;
+        System.out.println("Ingrese la base: ");
+        base = leer.nextInt();
+        //this.base = base;
+    }
+
     public double superficie() {
         return base * altura;
     }
@@ -59,4 +69,3 @@ public class Rectangulo {
         }
     }
 }
-

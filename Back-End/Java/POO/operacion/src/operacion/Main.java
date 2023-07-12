@@ -6,7 +6,6 @@
 package operacion;
 
 import Entidades.Operaciones;
-import service.Service;
 
 /**
  *
@@ -18,9 +17,15 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         Service service = new Service();
-         Operaciones operacion = service.crearOperaciones();
-         service.operacionMostrar();
+        Operaciones operacion = new Operaciones();
+        operacion.crearOperaciones();
+        
+        System.out.println("Suma: "+operacion.sumar());
+        System.out.println("Resta: "+operacion.restar());
+        System.out.println("Multiplicar: "+operacion.multiplicar());
+        System.out.println("Dividir: "+operacion.dividir());
     }
+
+    
     
 }
