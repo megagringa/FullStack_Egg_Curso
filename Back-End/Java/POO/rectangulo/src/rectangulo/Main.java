@@ -6,6 +6,7 @@
 package rectangulo;
 
 import Entidades.Rectangulo;
+import service.Service;
 
 /**
  *
@@ -17,12 +18,16 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Rectangulo rectangulo = new Rectangulo();
-
-        rectangulo.obtenerDatos();
-        System.out.println("Superficie: " + rectangulo.superficie());
-        System.out.println("Perimetro: " + rectangulo.perimetro());
-        rectangulo.dibujarRectangulo();
+        Service service = new Service();
+        Rectangulo rectangulo = service.obtenerDatos();
+        System.out.println("----------------");
+        System.out.println("----------------");
+        service.mostrarDatos();
+        System.out.println("----------------");
+        System.out.println("----------------");
+        service.dibujoR();
+        System.out.println("----------------");
+        System.out.println("----------------");
     }
 
 }
