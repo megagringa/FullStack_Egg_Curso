@@ -56,3 +56,12 @@
 ---
 ---
  Si la información es útil por favor deja tu estrellita y si ves errores no dudes en dejar la corrección. Desde ya muchas gracias por pasar.
+
+
+|  #    | Back |
+|  ---  | --- |
+|  ---  | --- |
+|  ---  | --- |
+|  #    | Front |
+|  ---  | --- |
+|  ---  | --- |
