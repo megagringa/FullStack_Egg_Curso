@@ -52,7 +52,15 @@
 | --- | --- |
 |  1  | [Iron Man] |
 |  1  | [Candados](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL/Candados) |
-
+|  ---  | --- |
+|  #    | Bases-SQL |
+|  ---  | --- |
+|  1  | [BD](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/BD-Descargas/scriptsBD) |
+|  ---  | --- |
+|  #    | Guias |
+|  ---  | --- |
+|  1  | [Guias](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia) |
+|  ---  | --- |
 ---
 ---
  Si la información es útil por favor deja tu estrellita y si ves errores no dudes en dejar la corrección. Desde ya muchas gracias por pasar.
