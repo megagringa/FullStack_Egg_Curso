@@ -5,15 +5,18 @@
 #### Repositorio del curso de Full Stack de Egg en donde abordaremos diferentes tecnologías y subire todos los ejercicios propuestos y algunos ejemplos más.
 
 ---
+### Contenido FullStack.
+---
 #### Contenido en el Back-End: java, SQL, JDBC, JPA.
 Contenido en el Front-End: ---
 
 ---
 
-|  #    | [Back-End](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End) |
+
+|  #    | FullStack |
 |  ---  | --- |
-|  ---  | --- |
-|  #    | Front-End |
+|  1    | [Back-End](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End) |
+|  2    | Front-End |
 | --- | --- |
 |  #  | Integradores |
 |  1  | [Iron Man] |

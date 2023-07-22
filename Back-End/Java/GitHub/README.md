@@ -58,3 +58,5 @@ git reset                     //Deshacer los cambios locales en el estado de un 
 git tag                       //Es el impulsor principal de una etiqueta: creación, modificación y eliminación.
 git stash                     //Almacena temporalmente (o guarda en un stash) los cambios que hayas efectuado en el código en el que estás trabajando para que puedas trabajar en otra cosa y, más tarde, regresar y volver a aplicar los cambios más tarde.
 ```
+---
+Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
