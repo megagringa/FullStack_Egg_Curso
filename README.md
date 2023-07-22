@@ -5,7 +5,7 @@
 #### Repositorio del curso de Full Stack de Egg en donde abordaremos diferentes tecnologías y subire todos los ejercicios propuestos y algunos ejemplos más.
 
 ---
-#### Contenido en el Back-End: java, SQL, JDBC,JPA.
+#### Contenido en el Back-End: java, SQL, JDBC, JPA.
 Contenido en el Front-End: ---
 
 ---
