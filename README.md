@@ -16,7 +16,7 @@ Contenido en el Front-End: ---
 |  #    | FullStack |
 |  ---  | --- |
 |  1    | [Back-End](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End) |
-|  2    | Front-End |
+|  2    | [Front-End](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Front-End) |
 | --- | --- |
 |  #  | Integradores |
 |  1  | [Iron Man] |

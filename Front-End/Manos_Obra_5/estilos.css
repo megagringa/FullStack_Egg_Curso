@@ -1,0 +1,11 @@
+/* Selector Universal */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Selector de Etiqueta */
+h1 {
+    font-size: 36px; /* Puedes cambiar el tamaño al que prefieras */
+    color: #333333; /* Puedes cambiar el color al que prefieras */
+}
