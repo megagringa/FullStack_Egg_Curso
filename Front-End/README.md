@@ -23,6 +23,21 @@ encarga de estandarizar el propio lenguaje HTML.
 
 ---
 
+### BOOTSTRAP
+Es un framework de interfaz de usuario, de código abierto, creado para un desarrollo web más
+rápido y sencillo. Mark Otto y Jacob Thornton fueron los creadores iniciales. El framework
+combina CSS y JavaScript para estilizar los elementos de una página HTML.
+Contiene todo tipo de plantillas de diseño basadas en HTML y CSS para diversas funciones y
+componentes, como navegación, sistema de cuadrícula, carruseles de imágenes y botones.
+Si bien Bootstrap ahorra tiempo al desarrollador de tener que administrar las plantillas
+repetidamente, su objetivo principal es crear sitios responsive. Permite que la interfaz de usuario
+de un sitio web funcione de manera óptima en todos los tamaños de pantalla, ya sea en teléfonos
+de pantalla pequeña o en dispositivos de escritorio de pantalla grande.
+Por lo tanto, los desarrolladores no necesitan crear sitios específicos para dispositivos y limitar su
+rango de audiencia.
+
+---
+
 ### Objetivos de la Guía
 
 En esta guía aprenderemos a:
@@ -43,8 +58,6 @@ La guia de anexo: [Clic aquí](https://github.com/megagringa/FullStack_Egg_Curso
 
 ---
 
----
----
 ---
 Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
 
