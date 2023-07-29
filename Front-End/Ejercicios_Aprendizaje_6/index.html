@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+
+  <form id="registroForm">
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required><br>
+
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+
+    <label>Sexo:</label>
+    <input type="radio" id="sexoMasculino" name="sexo" value="masculino" required>
+    <label for="sexoMasculino">Masculino</label>
+    <input type="radio" id="sexoFemenino" name="sexo" value="femenino" required>
+    <label for="sexoFemenino">Femenino</label><br>
+    <input type="radio" id="prefnodecir" name="sexo" value="femenino" required>
+    <label for="prefnodecir">Prefiero no decir</label><br>
+
+    <label for="paisNacimiento">País de Nacimiento:</label>
+    <select id="paisNacimiento" name="paisNacimiento" required>
+      <option value="" disabled selected>Seleccione un país</option>
+     
+      <option value="pais1">Argentina</option>
+      <option value="pais2">Bresil</option>
+      <option value="pais3">Uruguay</option>
+    </select><br>
+
+    <button type="submit">Enviar</button>
+    <button type="button">Borrar</button>
+
+  </form>
+
+  <!-- 
+
+<form action="ruta del método que va a manejar la información" method="POST"
+enctype="multipart/form-data"></form>
+ <label>Nombre del usuario</label> <br>
+ <input type="text" name="nombre"> <br>
+ <label>Edad del usuario</label> <br>
+ <input type="number" name="edad "> <br>
+ <label>Fecha de nacimiento del usuario</label> <br>
+ <input type="date” name="fechanac"> <br>
+ <label>Sexo del usuario</label> <br>
+ <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+ <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+ <label>País nacimiento del usuario</label> <br>
+ <select name="pais">
+ <option>Argentina</option>
+ <option>Brasil</option>
+ <option>Chile</option>
+ <option>Uruguay</option>
+ </select>
+ <br>
+<button type="submit">Enviar</button>
+<button type="reset">Borrar</button>
+
+ Este codigo esta en la guia y es mas ordenado!
+  -->
+
+</body>
+</html>

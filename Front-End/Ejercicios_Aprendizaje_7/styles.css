@@ -1,0 +1,59 @@
+body {
+    background-color: #f0f0f0; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Fuente a elección */
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-family: "Times New Roman", serif; /* Fuente del encabezado H1 */
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-family: Verdana, sans-serif; /* Fuente del encabezado H2 */
+    margin-bottom: 10px;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Color para el botón Enviar*/
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="button"] {
+    background-color: #f44336; /* Color para el botón Borrar*/
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+    opacity: 0.8;
+  }

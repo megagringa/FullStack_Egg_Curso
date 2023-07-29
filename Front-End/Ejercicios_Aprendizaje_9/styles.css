@@ -1,0 +1,70 @@
+#titulo{
+    color: grey;
+}
+
+p strong{
+    color: red;
+}
+
+.destacado{
+    color: green;
+}
+
+#subtitulo{
+    color: blue;
+}
+
+p a{
+    color: red;
+}
+
+p em{
+    color: blue;
+}
+
+.especial{
+    color: pink;
+}
+
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse; /* Fusiona las celdas de la tabla */
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Color de los bordes de la tabla */
+  }
+  
+  caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc; 
+  }
+  
+
+  th.especial {
+    color: blue; 
+    border: 1px solid #ccc; 
+  }
+  
+  
+  td em {
+    color: red; 
+  }
+  
+  td strong {
+    color: green; 
+  }
+
+  #adicional p{
+    color: green;
+  }
+
+  #adicional p span{
+    color: red;
+  }
