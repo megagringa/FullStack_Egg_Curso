@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+th.header-cell {
+    background-color: #E6F3FF;
+    background-image: url("fondo_gris.gif");
+    background-repeat: repeat-x;
+    background-position: center;
+    color: #333;
+    padding: 8px;
+    border: 1px solid #333;
+}
+
+tr.data-row:nth-child(even) {
+    background-color: #FFFFCC;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #333;
+}
+
+.header-row {
+    color: white;
+    background-color: #333;
+}
+
+.data-row {
+    color: #333;
+}
+
+.header-row th:first-child {
+    background-image: url("euro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-row th:nth-child(2) {
+    background-image: url("dolar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-row th:nth-child(3) {
+    background-image: url("yen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-row th:nth-child(4) {
+    background-image: url("libra.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
