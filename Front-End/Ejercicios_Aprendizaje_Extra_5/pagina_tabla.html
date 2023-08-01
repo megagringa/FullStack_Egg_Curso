@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Nombre del Sitio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Página Tabla <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina_formulario.html">Página Formulario</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Contenido de la Página Tabla -->
+<div class="container mt-5">
+    <h1>Contenido de la Página Tabla</h1>
+    <p>Esta página contiene una tabla de ejemplo.</p>
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>Cambio</th>
+                <th>Compra</th>
+                <th>Venta</th>
+                <th>Máximo</th>
+                <th>Mínimo</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="data-row">
+                <td>Euro/Dólar</td>
+                <td>1.2524</td>
+                <td>1.2527</td>
+                <td>1.2539</td>
+                <td>1.2488</td>
+                <td>
+                    <!-- Enlace a la página de detalle del producto -->
+                    <a href="detalle_producto.html" class="btn btn-info">Ver Detalle</a>
+                </td>
+            </tr>
+            <!-- Otras filas de datos -->
+        </tbody>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+</body>
+</html>
