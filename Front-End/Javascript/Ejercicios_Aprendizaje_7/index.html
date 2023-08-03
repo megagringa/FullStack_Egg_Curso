@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Suma de Números hasta Límite</h1>
+    <form>
+        <label for="limite">Ingrese el valor límite positivo:</label>
+        <input type="number" id="limite" required>
+        <br>
+        <label for="numero">Ingrese un número:</label>
+        <input type="number" id="numero" required>
+        <button type="button" onclick="agregarNumero()">Agregar número</button>
+        <button type="button" onclick="calcularSuma()">Calcular suma</button>
+    </form>
+    <p id="resultado"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>

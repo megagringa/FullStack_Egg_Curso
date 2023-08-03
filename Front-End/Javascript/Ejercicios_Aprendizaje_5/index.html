@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de operaciones aritméticas</h1>
+  <form id="calculatorForm">
+    <label for="value1">Primer valor:</label>
+    <input type="number" id="value1" required>
+    <br>
+    <label for="value2">Segundo valor:</label>
+    <input type="number" id="value2" required>
+    <br>
+    <label for="operation">Operación:</label>
+    <select id="operation" required>
+      <option value="S">Suma (+)</option>
+      <option value="R">Resta (-)</option>
+      <option value="M">Multiplicación (*)</option>
+      <option value="D">División (/)</option>
+    </select>
+    <br>
+    <button type="submit">Calcular</button>
+  </form>
+  <div id="result"></div>
+  <script src="app.js"></script>
+</body>
+</html>
