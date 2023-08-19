@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Armor;
+package armor;
 
 /**
  *
@@ -10,34 +10,22 @@ package Armor;
  */
 public class Generador {
 
-    private float cargaMaximaReactor;
+    private Integer energia;
 
     public Generador() {
-        cargaMaximaReactor = Float.MAX_VALUE;
+        this.energia = Integer.MAX_VALUE;
     }
 
-    public void mostrarEstado() {
-        System.out.println("Estado del Generador:");
-        System.out.println("Carga Máxima del Reactor: " + cargaMaximaReactor);
+    public void setEnergia(Integer energia) {
+        this.energia = energia;
     }
 
-    public void mostrarInfoReactor() {
-        System.out.println("Estado del Reactor:");
-        System.out.println("Carga Máxima del Reactor: " + cargaMaximaReactor);
-        System.out.println("Carga Máxima del Reactor en Joules: "
-                + convertirUnidadesReactor(cargaMaximaReactor, "Joules"));
-        System.out.println("Carga Máxima del Reactor en Ergios: "
-                + convertirUnidadesReactor(cargaMaximaReactor, "Ergios"));
+    public Integer getEnergia() {
+        return energia;
     }
 
-    private float convertirUnidadesReactor(float cargaMaxima, String unidadDestino) {
-        switch (unidadDestino) {
-            case "Joules":
-                return cargaMaxima * 4.184f;
-            case "Ergios":
-                return cargaMaxima * 41840000f;
-            default:
-                return 0;
-        }
+    @Override
+    public String toString() {
+        return "Energia " + energia + " W";
     }
 }

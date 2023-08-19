@@ -2,113 +2,130 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Armor;
+
+
+package armor;
+
 
 /**
  *
  * @author ing_j
  */
 public class Armadura {
-    private String colorPrimario;
-    private String colorSecundario;
-    private int nivelResistencia;
-    private int nivelSalud;
-    private float nivelBateria;
+   private String colorP;
+    private String colorS;
+    private int resistencia;
+    private Integer salud;
+    private Guante guanteIzq;
+    private Guante guanteDer;
+    private Bota botaIzq;
+    private Bota botaDer;
+    private Casco casco;
     private Generador generador;
-    private Bota botaIzquierda;
-    private Bota botaDerecha;
-    private Guante guanteIzquierdo;
-    private Guante guanteDerecho;
-    private Consola consola;
-    private Sintetizador sintetizador;
 
-     public Armadura(String colorPrimario, String colorSecundario, int nivelResistencia, int nivelSalud, float nivelBateria) {
-        this.colorPrimario = colorPrimario;
-        this.colorSecundario = colorSecundario;
-        this.nivelResistencia = nivelResistencia;
-        this.nivelSalud = nivelSalud;
-        this.nivelBateria = nivelBateria;
+    public Armadura() {
+        this.colorP = "gris";
+        this.colorS = "gris";
+        this.resistencia = 0;
+        this.salud = 100;
+        this.guanteIzq = new Guante("Guante Izquierdo");
+        this.guanteDer = new Guante("Guante Derecho");
+        this.botaIzq = new Bota("Bota Izquierda");
+        this.botaDer = new Bota("Bota Derecha");
+        this.casco = new Casco();
         this.generador = new Generador();
-        this.botaIzquierda = new Bota();
-        this.botaDerecha = new Bota();
-        this.guanteIzquierdo = new Guante();
-        this.guanteDerecho = new Guante();
-        this.consola = new Consola();
-        this.sintetizador = new Sintetizador();
-    }
-     public void caminar(int tiempo) {
-        int consumoEnergia = botaIzquierda.usar(NivelIntensidad.BASICO, tiempo) +
-                botaDerecha.usar(NivelIntensidad.BASICO, tiempo);
-        actualizarBateria(consumoEnergia);
     }
 
-    public void correr(int tiempo) {
-        int consumoEnergia = botaIzquierda.usar(NivelIntensidad.NORMAL, tiempo) +
-                botaDerecha.usar(NivelIntensidad.NORMAL, tiempo);
-        actualizarBateria(consumoEnergia);
+    public String getColorP() {
+        return colorP;
     }
 
-    public void propulsar(int tiempo) {
-        int consumoEnergia = botaIzquierda.usar(NivelIntensidad.INTENSIVO, tiempo) +
-                botaDerecha.usar(NivelIntensidad.INTENSIVO, tiempo);
-        actualizarBateria(consumoEnergia);
+    public void setColorP(String colorP) {
+        this.colorP = colorP;
     }
 
-    public void volar(int tiempo) {
-        int consumoEnergia = botaIzquierda.usar(NivelIntensidad.INTENSIVO, tiempo) +
-                botaDerecha.usar(NivelIntensidad.INTENSIVO, tiempo) +
-                guanteIzquierdo.usar(NivelIntensidad.NORMAL, tiempo) +
-                guanteDerecho.usar(NivelIntensidad.NORMAL, tiempo);
-        actualizarBateria(consumoEnergia);
+    public String getColorS() {
+        return colorS;
     }
 
-    public void usarGuantes() {
-        guanteIzquierdo.disparar();
-        guanteDerecho.disparar();
-        actualizarBateria(guanteIzquierdo.getConsumoEnergia() + guanteDerecho.getConsumoEnergia());
+    public void setColorS(String colorS) {
+        this.colorS = colorS;
     }
 
-    public void escribir(String mensaje) {
-        consola.escribir(mensaje);
-        actualizarBateria(consola.getConsumoEnergia());
+    public int getResistencia() {
+        return resistencia;
     }
 
-    public void hablar(String mensaje) {
-        sintetizador.hablar(mensaje);
-        actualizarBateria(sintetizador.getConsumoEnergia());
+    public void setResistencia(int resistencia) {
+        this.resistencia = resistencia;
     }
 
-    public void mostrarEstado() {
-        System.out.println("Estado de la Armadura Iron Man:");
-        System.out.println("Color Primario: " + colorPrimario);
-        System.out.println("Color Secundario: " + colorSecundario);
-        System.out.println("Nivel de Resistencia: " + nivelResistencia);
-        System.out.println("Nivel de Salud: " + nivelSalud);
-        System.out.println("Nivel de Batería: " + nivelBateria);
-        generador.mostrarEstado();
-        botaIzquierda.mostrarEstado();
-        botaDerecha.mostrarEstado();
-        guanteIzquierdo.mostrarEstado();
-        guanteDerecho.mostrarEstado();
-        consola.mostrarEstado();
-        sintetizador.mostrarEstado();
+    public Integer getSalud() {
+        return salud;
     }
 
-    public void mostrarEstadoBateria() {
-        System.out.println("Estado de la Batería: " + nivelBateria + "%");
+    public void setSalud(Integer salud) {
+        this.salud = salud;
     }
 
-    public void mostrarInfoReactor() {
-        generador.mostrarInfoReactor();
+    public Guante getGuanteIzq() {
+        return guanteIzq;
     }
 
-    private void actualizarBateria(float consumoEnergia) {
-        if (nivelBateria >= consumoEnergia) {
-            nivelBateria -= consumoEnergia;
-        } else {
-            System.out.println("¡Batería insuficiente! La armadura se apagará.");
-            nivelBateria = 0;
-        }
+    public void setGuanteIzq(Guante guanteIzq) {
+        this.guanteIzq = guanteIzq;
+    }
+
+    public Guante getGuanteDer() {
+        return guanteDer;
+    }
+
+    public void setGuanteDer(Guante guanteDer) {
+        this.guanteDer = guanteDer;
+    }
+
+    public Bota getBotaIzq() {
+        return botaIzq;
+    }
+
+    public void setBotaIzq(Bota botaIzq) {
+        this.botaIzq = botaIzq;
+    }
+
+    public Bota getBotaDer() {
+        return botaDer;
+    }
+
+    public void setBotaDer(Bota botaDer) {
+        this.botaDer = botaDer;
+    }
+
+    public Casco getCasco() {
+        return casco;
+    }
+
+    public void setCasco(Casco casco) {
+        this.casco = casco;
+    }
+
+    public Generador getGenerador() {
+        return generador;
+    }
+
+    public void setGenerador(Generador generador) {
+        this.generador = generador;
+    }
+
+    @Override
+    public String toString() {
+        System.out.println(
+                "Armadura " + "color Principal =" + colorP + ", color Secundario=" + colorS + ""
+                + "\n resistencia=" + resistencia + ", salud=" + salud + ""
+                + "\n guanteIzq=" + guanteIzq + ", guanteDer=" + guanteDer + ""
+                + "\n botaIzq=" + botaIzq + ", botaDer=" + botaDer + ""
+                + "\n casco=" + casco + ""
+                + "\n generador=" + generador + '\n');
+        return "";
     }
 }
     
