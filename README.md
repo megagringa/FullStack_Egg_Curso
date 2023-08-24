@@ -16,6 +16,7 @@
      - CSS3 
      - BOOTSTRAP 
      - Javascript
+     - React
 
 ---
 ---
