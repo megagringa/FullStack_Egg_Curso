@@ -34,8 +34,16 @@ estructura (tablas y columnas). Por lo que ahora es el turno de insertar registr
 realices algunos cambios en ella así seguimos practicando lo aprendido
 
  a) Cambiar en la tabla personajes el año de aparición a 1938 del personaje Superman.
- 
+ - UPDATE personaje
+ - SET aparicion = 1938
+ - WHERE personaje = 'Superman';
+
+
  b) Eliminar el registro que contiene al personaje Flash.
+ - DELETE FROM personaje
+ - WHERE personaje = 'Flash';
+
+---
 
 ### Actividad extra
 Vamos a aprovechar que ya estamos trabajando con scripts y vamos a abrir el script llamado
