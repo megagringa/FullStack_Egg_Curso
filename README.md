@@ -1,6 +1,6 @@
 # FullStack_Egg 
 
-## Año de cursado 2023
+## Año de cursado 2023 (Febrero == //)
 
 #### Repositorio del curso de Full Stack de Egg en donde abordaremos diferentes tecnologías y subire todos los ejercicios propuestos y algunos ejemplos más.
 
