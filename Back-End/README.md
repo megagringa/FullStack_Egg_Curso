@@ -1,6 +1,6 @@
 ### Contenido FullStack del Curso de Egg en la parte de Back-End.
 ---
-## Tecnologías: JAVA, SQL, JDBC, JPA.
+## Tecnologías: JAVA, SQL, JDBC, JPA, Spring Boot.
 
 |  #  | Java |
 | --- | --- |
@@ -16,10 +16,10 @@
 |  1  | [Ejercicios](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/SQL)|
 | --- | --- |
 |  #  | JDBC |
-|  1  | [Ejercicios] |
+|  1  | [Ejercicios](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/JDBC) |
 | --- | --- |
 |  #  | JPA |
-|  1  | [Ejercicios] |
+|  1  | [Ejercicios](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End/JPA) |
 | --- | --- |
 
 ---

@@ -34,11 +34,18 @@ implementación de JPA. Existen varios proveedores como lo son los siguientes:
 
 ---
 ---
+La guia de JPA: [Clic aquí](https://github.com/megagringa/FullStack_Egg_Curso/blob/main/Guia/Guia_JPA.pdf)
+
+---
+---
+Instructivo de conección con MySQL: [Click aquí](https://github.com/megagringa/FullStack_Egg_Curso/blob/main/Guia/Instructivo_Conexion_Netbeans_MySQL.pdf) 
+
+---
+---
+Instructivo Unidad de persistencia en JPA: [Click aquí](https://github.com/megagringa/FullStack_Egg_Curso/blob/main/Guia/Instructivo_Unidad_PersitenciaJPA.pdf) 
 
 
 ---
 ---
 
-
----
----
+Volver al principio del repositorio. [FullSTack_Egg](https://github.com/megagringa/FullStack_Egg_Curso)
