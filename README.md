@@ -10,7 +10,9 @@
      - SQL 
      - JDBC 
      - JPA
-     - Java(Spring Boot)
+     - Java(Spring Boot):
+          - MVC
+          - Security 
 ---
 - Front-End: 
      - HTML5 
