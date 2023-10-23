@@ -37,7 +37,7 @@
 
 Cuántas veces se ejecutara el siguiente for?
 
-![Captura-imagen-For](https://megagringa.github.io/FullStack_Egg_Curso/img/capimagen-for.png)
+![Captura-imagen-For](https://github.com/megagringa/FullStack_Egg_Curso/blob/main/img/capimagen-for.png)
 
 - 8
 - Mostrará error
