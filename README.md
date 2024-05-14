@@ -27,6 +27,7 @@
 
 |  #    | FullStack |
 |  ---  | --- |
+|  0  | [Pseint](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Guia/pseint.pdf) |
 |  1    | [Back-End](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Back-End) |
 |  2    | [Front-End](https://github.com/megagringa/FullStack_Egg_Curso/tree/main/Front-End) |
 | --- | --- |
